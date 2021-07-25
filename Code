@@ -1,0 +1,16 @@
+import random
+from random import randint
+l = []
+q = int(input('Numbers od dices:'))
+n = int(input('Max value of the dice:'))
+for i in range(q):
+    r = randint(1,n)
+    l.append(r)
+
+cont = {i:l.count(i) for i in l}
+print(l)
+print(cont)
+
+
+
+
